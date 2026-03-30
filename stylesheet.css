@@ -36,6 +36,7 @@ header {
 #name {
     margin-left: 5%;
     font-weight: 700;
+    color: var(--secondary-color);
 }
 nav {
     display: grid;
@@ -124,5 +125,9 @@ span {
   #name {
     font-size: 0.9rem;
   }
-
+ .main {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10%;
+ }
 }
