@@ -28,7 +28,7 @@ body {
 }
 header {
     display: flex;
-    min-height: 10%;
+    min-height: 11%;
     justify-content: space-between;
     align-items: center !important ;
     border-bottom: #0c0d0e solid 2px;
@@ -103,6 +103,9 @@ span {
 }
 .icon a {
     color: var(--secondary-color);
+}
+.icon a:hover {
+    color: var(--primary-color)
 }
 .icon {
     display: flex;
